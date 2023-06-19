@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+}
+
+html {
+  color: #A38F9E;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: darkolivegreen;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("/img/wallpaperflare.com_wallpaper\ \(1\).jpg") 0px 0px no-repeat;
+  background-size: cover;
+}
+
+header:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+/* header {
+    padding: 25px;
+    
+    background-color: slategray;
+    color: white;
+    height: 100;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 99;
+
+  } */
+.web_logo {
+  height: 200px;
+  z-index: 999;
+
+}
+
+nav.menu {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+nav.menu a {
+  text-decoration: none;
+  color: slategray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+
+  border-radius: 55px;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+nav.menu a:hover {
+  border-radius: 55px;
+  justify-content: center;
+  align-items: center;
+  text-shadow: #FFCFAB 1px 0 10px;
+}
+
+a.menu_logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  text-indent: 20px;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0 0 10px #FFCFAB);
+}
+
+.menu_link,
+.menu_link-active {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.menu_link-active {
+  font-weight: bold;
+
+  border-radius: 55px;
+  color: slategray;
+  animation: 2s;
+  transition: 900ms;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.menu_link-active:hover {
+  border-radius: 55px;
+  text-shadow: #FFCFAB 1px 0 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-button {
+  padding: 20px 60px;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  font-size: 19px;
+  font-weight: bold;
+  background-color: #984447;
+  color: #A38F9E;
+  cursor: pointer;
+  width: auto;
+  height: 100px;
+  border: 3px solid slategray;
+  transition: 1s;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 999;
+  margin: 0 auto;
+  text-decoration: none;
+  width: 550px;
+}
+
+.cta-button a {
+  text-decoration: none;
+  color: #A38F9E;
+
+}
+
+.cta-button a:hover {
+  color: #984447;
+}
+
+.cta-button:hover {
+  background-color: #A38F9E;
+  color: #984447;
+  border: 5px solid slategray;
+}
+
+.maincharacter {
+  padding: 155px;
+  padding-bottom: 150px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+  box-shadow: #FFCFAB 2px;
+  /* max-width: auto;
+    max-height: auto; */
+}
+
+.joelmiller {
+  max-height: auto;
+  max-width: auto;
+  display: flex;
+  justify-content: space-between;
+  filter: drop-shadow(0 0 10px #FFCFAB);
+  text-shadow: #FFCFAB;
+  padding: 50px;
+  background-color: black;
+
+  text-shadow: #FFCFAB;
+  padding: 50px;
+}
+
+.joel_text2 {
+  background-color: #FFCFAB;
+  filter: drop-shadow(0 0 10px #FFCFAB);
+}
+
+.joel_img {
+  border: black 2px;
+
+  padding-right: 15px;
+  box-shadow: #FFCFAB;
+}
+
+hr {
+  Width: 85%;
+  Margin: 0 auto;
+  margin-top: 30px;
+}
+
+
+
+.swiper {
+  width: 70%;
+  height: 530px;
+  margin-bottom: 150px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  position: absolute;
+  top: 0px;
+  right: 140px !important;
+  left: auto;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 140px !important;
+  right: auto;
+}
+
+.test {
+  position: relative;
+}
+
+.joelmillerslider {
+  max-height: auto;
+  max-width: auto;
+  display: flex;
+  justify-content: space-between;
+  filter: drop-shadow(0 0 10px #FFCFAB);
+  text-shadow: #FFCFAB;
+  padding: 50px;
+  background-color: #FFCFAB;
+  color: black;
+  border-radius: 100px;
+  text-shadow: #FFCFAB;
+  padding: 50px;
+  z-index: 999;
+}
+
+.joelmillerslider2 {
+  max-height: auto;
+  max-width: auto;
+  display: flex;
+  justify-content: space-between;
+  filter: drop-shadow(0 0 10px #FFCFAB);
+  text-shadow: #FFCFAB;
+  padding: 50px;
+  background-color: whitesmoke;
+  color: darkolivegreen;
+  /* border-radius: 100px; */
+  text-shadow: #FFCFAB;
+  padding: 50px;
+  z-index: 999;
+}
+
+.sound {
+  display: flex;
+  justify-content: center;
+
+}
+
+.planets {
+  text-align: center;
+  margin: 10px auto 20px;
+  display: block;
+  padding: 100;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: lighter;
+  margin-top: 150px;
+}
+
+.card {
+  position: relative;
+  color: aliceblue;
+  margin: 10px;
+  width: 450px;
+  height: 550px;
+  display: inline-block;
+  padding: 20px 60px;
+  background-color: white;
+  color: aliceblue;
+  border-radius: 55px;
+  transition: 900ms;
+  margin-top: 10px;
+}
+
+.card:hover {
+  animation: move 5s infinite linear;
+  background-color: black;
+  color: white;
+}
+
+.card img {
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.card button {
+  padding: 20px 60px;
+  border: none;
+  outline: none;
+  background-color: black;
+  border-radius: 30px;
+
+}
+
+.card a:hover {
+  filter: drop-shadow(0 0 20px #ffffff);
+
+}
+
+.card a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*! planets img */
+
+.merkury {
+  width: 100%;
+}
+
+.venus {
+  width: 90%;
+}
+
+.earth {
+  width: 100%;
+}
+
+.swiper mySwiper {
+  padding: auto;
+}
+
+footer {
+  padding: 55px;
+  background: linear-gradient(180deg, white 0%, black 80%);
+  color: #fff;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.footer_logo {
+  display: flex;
+  align-items: center;
+  text-indent: 18px;
+}
+
+.footer_left p {
+  margin: 30px 0;
+}
+
+footer_right {
+  display: flex;
+}
+
+.footer_list {
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer_list p {
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.footer_list ul {
+  list-style: none;
+}
+
+.footer_list ul li a {
+  color: #fff;
+  display: block;
+  padding: 15px 20px;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+.footer_list ul li a:hover {
+  text-decoration: underline;
+}
